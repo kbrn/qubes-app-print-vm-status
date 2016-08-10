@@ -36,7 +36,7 @@ make install DESTDIR=%{buildroot}
 %files
 %doc README.md
 %defattr(-,root,root,-)
-%attr(0664,root,qubes) /usr/local/bin/qubes-print-vm-stats
+%attr(0774,root,qubes) /usr/local/bin/qubes-print-vm-stats
 
 %changelog
 
